@@ -32,6 +32,7 @@ sha256sum Mobexler.ova
 Comparer le hash obtenu avec celui fourni sur la page officielle.
 
 ---
+<img width="1932" height="1400" alt="image" src="https://github.com/user-attachments/assets/8ab23a9f-4361-4a39-ae9b-9751657b6129" />
 
 ## Étape 2 — Import de l'OVA dans VirtualBox
 
@@ -88,6 +89,7 @@ ip route
 ping -c 2 8.8.8.8
 ping -c 2 google.com
 ```
+<img width="1645" height="873" alt="image" src="https://github.com/user-attachments/assets/733d836d-d971-4760-a8d5-f0b4696a1b71" />
 
 | Résultat | Cause probable |
 |---|---|
@@ -105,10 +107,12 @@ Avant toute manipulation, prendre un snapshot de la VM dans son état propre.
 Nommer le snapshot de façon explicite, par exemple : `clean-install`.
 
 > Le snapshot permet de restaurer l'environnement à son état initial après chaque TP (proxy, certificats, modifications système, etc.).
+<img width="2108" height="805" alt="image" src="https://github.com/user-attachments/assets/d5b99c1b-6001-4016-8ac9-97716be1d168" />
 
 ---
 
 ## Étape 6 — Connexion de la cible Android (Genymotion)
+<img width="2042" height="1505" alt="image" src="https://github.com/user-attachments/assets/3e90fec3-2d55-461c-8ca6-adedcf952140" />
 
 ### B1 — Démarrer le device Genymotion
 
@@ -142,6 +146,7 @@ Invite de commande attendue :
 ```
 vbox86p:/ $
 ```
+<img width="1743" height="507" alt="image" src="https://github.com/user-attachments/assets/ea6b2fe0-8c63-4474-ad9a-475aefdb5bb7" />
 
 > Si plusieurs devices sont connectés simultanément, toujours préciser le device cible avec le flag `-s` pour éviter les conflits.
 
